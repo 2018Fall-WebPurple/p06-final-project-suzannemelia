@@ -1,0 +1,95 @@
+/*
+* Suzanne Melia
+* January 16,2018 
+* "3columnProject "  
+*/ 
+
+* {margin:0; padding:0;} 
+/*The Universal selector */
+
+body { 
+    width: 964px; 
+    background-color: white;
+    margin: 15px auto;
+border: 1px solid black;
+}
+
+h1 {
+    padding:10px;
+}
+
+header { 
+    text-align: center; 
+    font-family: Fantasy;
+    background-color: skyblue;
+    border-bottom: 2px solid #949b8f;
+}
+/*the numbers behind the hashtag #949b8f displayes a gray color for the border */ 
+
+#care {height: 100px; width: 120px; float:left; border: 2px solid; padding: 0px; margin:10px;}
+#children {height: 100px; width: 120px; float:right; border: 2px solid; padding: 0px; margin:10px;}
+
+
+blockquote {font-family: cursive;}
+/*The blockquote is displayed as a different font than the other sections*/
+
+#sidebarA {
+    width:170px;
+    height: 500px;
+    float: left; 
+    border-right: 2px solid #949b8f;
+    padding: 0px; margin:15px; border: 2px solid navy;
+    font-family: fantasy;
+    text-align: center; 
+    background-color: lightskyblue;
+}
+/*The sidebarA is displayed on the left hand side of the main */ 
+
+h1 {font-family: fantasy}
+ 
+#portrait {height: 100px; width: 100px; align-content: center; padding: 0px; margin:5px; border: 2px solid navy;}
+
+main {
+    width:550px; 
+    height: 500px; 
+    float: left; 
+    padding:0px; margin-top: 15px; border: 2px solid navy;
+    font-family: fantasy;
+    background-color: #949b8f;    
+}
+
+h1 {text-align: center;}
+/* this puts all of the text inside the h1 centered on the page */ 
+
+#sidebarB {
+    width:170px;
+    height: 500px;
+    float: right; 
+    border-right: 2px solid #949b8f;
+    padding: 0px; margin:15px; border: 2px solid navy;
+    font-family: inherit;
+    text-align: center; 
+    background-color: lightskyblue; 
+} 
+/*sidebarb is designed by the width, height, font, and background color. This section has a border and is floated right to the right of the main*/
+
+#hands {height: 100px; width: 145px; float:left; padding: 0px; margin: 5px; border: 2px solid navy;}
+#safe {height: 100px; width: 145px; float:left; padding: 0px; margin: 5px; border: 2px solid navy;}
+#love {height: 100px; width: 145px; float:left; padding: 0px; margin: 5px; border: 2px solid navy;}
+#boy {height: 100px; width: 145px; float:left; padding: 0px; margin: 5px; border: 2px solid navy;}
+#sick {height: 100px; width: 145px; float:left; padding: 0px; margin: 5px; border: 2px solid navy;}
+#walking {height: 100px; width: 145px; float:left; padding: 0px; margin: 5px; border: 2px solid navy;}
+section { clear: both; }
+/* All of the photos are floated left so they all align*/
+/* I made sure this section was cleared*/
+/*These are the photos that are displayed on the web page, and clarifies the height and width of the photos, as well as the padding, margin, and border */
+
+footer {
+    text-align: center; 
+    font-family: Fantasy;
+    background-color: skyblue;
+    border: 2px solid #949b8f;
+    clear:both;
+   /* In the footer, all of the text is aligned in the center of the page, the background color is sky blue, the font is fantasty, and the border is around the footer section */
+}
+h5 {float:right;}
